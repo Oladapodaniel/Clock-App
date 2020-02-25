@@ -1,0 +1,80 @@
+body{
+	background-image: url(wallpaper.jpg);
+	
+
+}
+
+.clock {
+	width: 20em;
+	height: 20em;
+	border: 10px solid white;
+	border-radius: 50%;
+	box-shadow: 0 0 0px 4px rgba(0,0,0,0.1), inset 0 0 0 3px #EFEFEF, 0 0 10px rgba(0,0,0,0.2);
+}
+
+.clock-face {
+	width: 87%;
+	height: 87%;
+	position: relative;
+	top: 20px;
+	left: 15px;
+	
+}
+.hand {
+	
+	width: 50%;
+	height: 3px;
+	background-color: orange;
+	position: relative;
+	top: 50%;
+	transform: rotate(90deg);
+	transform-origin: 100%;
+	/* transition: all 0.05s; */
+	transition-timing-function: cubic-bezier(0.42, 0, 0, 1.99);
+   
+}
+
+.hour_of_hand {
+	
+		transform: rotate(90deg);
+		transform-origin: 100%;
+		transition: all 0.05s;
+	transition-timing-function: cubic-bezier(0.42, 0, 0, 1.99);
+		width: 100px;
+	height: 3px;
+	background-color: orange;
+	position: relative;
+	top: 50%;
+	left: 14%;
+}
+
+#round {
+	background-color: white;
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 48.5%;
+	z-index: 1;
+	}
+.day, .month, .year{
+	background-color: black;
+	padding-left: 5px;
+	padding-right: 5px;
+
+
+}
+
+#date {
+	color: white;
+	background-color: white;
+	font-family: Century Gothic;
+	padding: 2px;
+	width: 19%;
+	height: auto;
+	position: relative;
+	top: 0;
+	left: 70px;
+
+}
