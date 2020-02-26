@@ -1,0 +1,1 @@
+A dynamic analogue clock displaying the current hour, minute and seconds.
